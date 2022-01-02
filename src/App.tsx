@@ -1,5 +1,6 @@
 import React from 'react';
 import { Counter } from './Counter';
+import { ReducerExample } from './ReducerExample';
 import { TextField } from './TextField';
 
 const App: React.FC = () => {
@@ -7,6 +8,7 @@ const App: React.FC = () => {
     <div>Yo Ts!</div>
     <TextField text='hey' person={{firstName:'Jonathan',lastName:'Buttigieg'}} 
     />
+    <ReducerExample />
      <Counter>
       {(count, setCount)=> (
         <div>
