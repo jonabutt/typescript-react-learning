@@ -23,8 +23,6 @@ export const TextField: React.FC<Props> = ({handleChange}) => {
     const [obj, setObj] = useState<TextNode>({text: 'hello'});
     const inputRef = useRef<HTMLInputElement>(null);
     const divRef = useRef<HTMLDivElement>(null);
-    setCount(null);
-    setObj({text: 'hello1'});
 
     return (
         <div ref={divRef}>
